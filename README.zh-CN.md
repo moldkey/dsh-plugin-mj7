@@ -1,5 +1,7 @@
 # dsh-plugin-mj7
 
+Repository: https://github.com/moldkey/dsh-plugin-mj7
+
 模极社（mj7.cn）只读数据插件：在 DSH 里查标准、产品、HS 关联、贸易术语、单证和汇率。
 
 English docs: [README.md](README.md).

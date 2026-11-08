@@ -1,6 +1,6 @@
 {
   "name": "@liangjiehappy/dsh-plugin-mj7",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "模极社 mj7.cn 只读数据工具：标准/产品搜索、HS 联想、Incoterms、贸易单证、人民币汇率。只访问 www.mj7.cn。",
   "type": "module",
   "main": "lib/index.js",
@@ -37,5 +37,13 @@
   "license": "MIT",
   "scripts": {
     "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-plugin-mj7.git"
+  },
+  "homepage": "https://github.com/moldkey/dsh-plugin-mj7",
+  "bugs": {
+    "url": "https://github.com/moldkey/dsh-plugin-mj7/issues"
   }
 }

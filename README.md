@@ -1,5 +1,7 @@
 # dsh-plugin-mj7
 
+Repository: https://github.com/moldkey/dsh-plugin-mj7
+
 Read-only mj7.cn data tools for DeepSeek Harness: standards/product search, HS lookup, Incoterms, trade documents, and CNY FX rates.
 
 中文说明见 [README.zh-CN.md](README.zh-CN.md).
