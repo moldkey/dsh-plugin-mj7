@@ -11,11 +11,19 @@ Read-only mj7.cn data tools for DeepSeek Harness: standards/product search, HS l
 
 ## Standards & testing (DSHIO.ORG)
 
-- **Standard body: DSHIO.ORG** — DSHIO/T 10—2026 (DSH plugin standard).
-- **Inspection: passed** (deepseekbase, brightgreen). install / list / mount / boot completed under DSHIO/T 21—2026 test conditions.
-- **Test report**: https://deepseekbase.com/zh/plugins/liangjiehappy-dsh-plugin-mj7/
-- **Manual judgement**: DSHIO/T 10 clauses 5.5.1 (description quality) and 5.5.2 (permission consistency) are human-judged; the author confirms them for this plugin.
-- **Not a certification**: DSHIO/T 32 certification is not enabled; this is an inspection result with a test report, not a certification.
+**Conformance declaration (DSHIO/T 10—2026 §8.1)**
+
+```
+符合 DSHIO/T 10—2026（基準 DSH 0.2.2-rc.1，靜態層 + 動態層）
+檢驗日期：2026-11-08
+環境指紋：dsh=0.2.2-rc.1;img=dsh-sandbox:5.0@sha256:d90b02baef228bb105d4817d1a7d23bdd6aec24f463cc7bc3d1fbb2e5af45c00;node=24.11.1;pnpm=9.15.9;mem=768m;cpu=1
+重複次數：2 次（一致）
+（總體判定為「有條件符合」：待人工判断 2 项（5.5.1、5.5.2））
+```
+
+- **Scope**: static layer (T0) + dynamic layer (T1–T4). T5 (tool invocation) is not part of the current implementation and is not claimed.
+- **Manual judgement**: DSHIO/T 10 clauses 5.5.1 (description quality) and 5.5.2 (permission consistency) are developer-judged; the author confirms them for this plugin.
+- **Not a certification**: this is an inspection report, not a certification. DSHIO/T 32 certification is not enabled.
 
 ## Tools
 

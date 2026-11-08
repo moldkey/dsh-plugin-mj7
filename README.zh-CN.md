@@ -11,11 +11,19 @@ English docs: [README.md](README.md).
 
 ## 标准与检验（DSHIO.ORG）
 
-- **标准发布方：DSHIO.ORG** — DSHIO/T 10—2026（DSH 插件标准）。
-- **检验结果：passed（通过，绿色）**：在 deepseekbase 按 DSHIO/T 21—2026 标准条件完成 install / list / mount / boot。
-- **检验报告**：https://deepseekbase.com/zh/plugins/liangjiehappy-dsh-plugin-mj7/
-- **人工判断项**：DSHIO/T 10 的 5.5.1（描述质量）与 5.5.2（权限一致性）属人工判断，本插件由作者确认。
-- **不是认证**：DSHIO/T 32 认证尚未启用；这是带检验报告的检验结果，不是认证。
+**符合性声明（DSHIO/T 10—2026 §8.1）**
+
+```
+符合 DSHIO/T 10—2026（基準 DSH 0.2.2-rc.1，靜態層 + 動態層）
+檢驗日期：2026-11-08
+環境指紋：dsh=0.2.2-rc.1;img=dsh-sandbox:5.0@sha256:d90b02baef228bb105d4817d1a7d23bdd6aec24f463cc7bc3d1fbb2e5af45c00;node=24.11.1;pnpm=9.15.9;mem=768m;cpu=1
+重複次數：2 次（一致）
+（總體判定為「有條件符合」：待人工判断 2 项（5.5.1、5.5.2））
+```
+
+- **覆盖范围**：静态层（T0）+ 动态层（T1–T4）。T5（工具调用）当前未实施，本插件不作此声明。
+- **人工判断项**：DSHIO/T 10 的 5.5.1（描述质量）与 5.5.2（权限一致性）由开发者自行判定，本插件由作者确认。
+- **不是认证**：这是检验报告，不是认证；DSHIO/T 32 认证尚未启用。
 
 ## 工具
 
