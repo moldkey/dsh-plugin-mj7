@@ -9,15 +9,12 @@ Read-only mj7.cn data tools for DeepSeek Harness: standards/product search, HS l
 
 中文说明见 [README.zh-CN.md](README.zh-CN.md).
 
-
-
 ## Standards & testing (DSHIO.ORG)
 
 - **Standard body: DSHIO.ORG** — DSHIO/T 10—2026 (DSH plugin standard).
 - **Inspection passed**: DSHIO/T 10 inspection passed; the test report is published on deepseekbase.com (install / list / mount / boot, DSH 0.2.2-rc.1).
 - **Inspection scope**: manifest `dsh.bundle.patch`, patch structure, `engines.dsh` lower bound, tool contract, declared permissions (`network` only), no red-line permission combinations.
 - **Not a certification**: DSHIO/T 32 certification is not enabled; this is an inspection result with a test report, not a certification.
-
 
 - **DSHIO/T 10—2026** (DSH plugin standard): conformance checked — manifest `dsh.bundle.patch`, patch structure, `engines.dsh` lower bound, tool contract, declared permissions (`network` only), no red-line permission combinations.
 - **DSH sandbox**: install / list / mount / boot tested on deepseekbase.com (DSH 0.2.2-rc.1).

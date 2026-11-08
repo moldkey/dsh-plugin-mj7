@@ -2,13 +2,12 @@
 
 [![DSHIO.ORG](https://img.shields.io/badge/DSHIO.ORG-inspection%20passed-blue)](https://dshio.org/standards/10/)
 [![DSH test report](https://img.shields.io/badge/DSH-test%20report-brightgreen)](https://deepseekbase.com/ecosystem/plugin-tests/)
+
 Repository: https://github.com/moldkey/dsh-plugin-mj7
 
 模极社（mj7.cn）只读数据插件：在 DSH 里查标准、产品、HS 关联、贸易术语、单证和汇率。
 
 English docs: [README.md](README.md).
-
-
 
 ## 标准与检验（DSHIO.ORG）
 
@@ -16,11 +15,6 @@ English docs: [README.md](README.md).
 - **检验通过**：已通过 DSHIO/T 10 检验，检验报告发布在 deepseekbase.com（install / list / mount / boot，DSH 0.2.2-rc.1）。
 - **检验范围**：`dsh.bundle.patch`、patch 结构、`engines.dsh` 只写下限、工具契约、权限声明（仅 `network`）、无红线权限组合。
 - **不是认证**：DSHIO/T 32 认证尚未启用；这是带检验报告的检验结果，不是认证。
-
-
-- **DSHIO/T 10—2026**（DSH 插件标准）：已按条款自检通过 —— `dsh.bundle.patch`、patch 结构、`engines.dsh` 只写下限、工具契约、权限声明（仅 `network`）、无红线权限组合。
-- **DSH 沙箱**：已通过 deepseekbase.com 的 install / list / mount / boot 四阶段测试（DSH 0.2.2-rc.1）。
-- 这是符合性声明，不是认证：DSHIO/T 32 认证尚未启用。
 
 ## 工具
 

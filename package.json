@@ -1,6 +1,6 @@
 {
   "name": "@liangjiehappy/dsh-plugin-mj7",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "模极社 mj7.cn 只读数据工具：标准/产品搜索、HS 联想、Incoterms、贸易单证、人民币汇率。只访问 www.mj7.cn。",
   "type": "module",
   "main": "lib/index.js",
