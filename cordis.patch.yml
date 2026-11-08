@@ -1,0 +1,5 @@
+- insert:
+    - id: dsh-plugin-mj7
+      name: "@liangjiehappy/dsh-plugin-mj7"
+      config:
+        baseUrl: "https://www.mj7.cn"
