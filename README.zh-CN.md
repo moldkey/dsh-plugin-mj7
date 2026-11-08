@@ -1,6 +1,7 @@
 # dsh-plugin-mj7
 
 [![DSHIO/T 10](https://deepseekbase.com/badge/std.svg)](https://dshio.org/10/) [![deepseekbase](https://deepseekbase.com/badge/liangjiehappy-dsh-plugin-mj7.svg)](https://deepseekbase.com/zh/plugins/liangjiehappy-dsh-plugin-mj7/)
+[![deepseekbase endpoint](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeepseekbase.com%2Fbadge%2Fliangjiehappy-dsh-plugin-mj7.json&style=flat-square)](https://deepseekbase.com/zh/plugins/liangjiehappy-dsh-plugin-mj7/)
 
 Repository: https://github.com/moldkey/dsh-plugin-mj7
 
