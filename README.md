@@ -1,7 +1,6 @@
 # dsh-plugin-mj7
 
-[![DSHIO.ORG](https://img.shields.io/badge/DSHIO.ORG-inspection%20passed-blue)](https://dshio.org/standards/10/)
-[![DSH test report](https://img.shields.io/badge/DSH-test%20report-brightgreen)](https://deepseekbase.com/ecosystem/plugin-tests/)
+[![DSHIO/T 10](https://deepseekbase.com/badge/std.svg)](https://dshio.org/10/) [![deepseekbase](https://deepseekbase.com/badge/liangjiehappy-dsh-plugin-mj7.svg)](https://deepseekbase.com/zh/plugins/liangjiehappy-dsh-plugin-mj7/)
 
 Repository: https://github.com/moldkey/dsh-plugin-mj7
 
@@ -12,13 +11,10 @@ Read-only mj7.cn data tools for DeepSeek Harness: standards/product search, HS l
 ## Standards & testing (DSHIO.ORG)
 
 - **Standard body: DSHIO.ORG** — DSHIO/T 10—2026 (DSH plugin standard).
-- **Inspection passed**: DSHIO/T 10 inspection passed; the test report is published on deepseekbase.com (install / list / mount / boot, DSH 0.2.2-rc.1).
-- **Inspection scope**: manifest `dsh.bundle.patch`, patch structure, `engines.dsh` lower bound, tool contract, declared permissions (`network` only), no red-line permission combinations.
+- **Inspection: passed** (deepseekbase, brightgreen). install / list / mount / boot completed under DSHIO/T 21—2026 test conditions.
+- **Test report**: https://deepseekbase.com/zh/plugins/liangjiehappy-dsh-plugin-mj7/
+- **Manual judgement**: DSHIO/T 10 clauses 5.5.1 (description quality) and 5.5.2 (permission consistency) are human-judged; the author confirms them for this plugin.
 - **Not a certification**: DSHIO/T 32 certification is not enabled; this is an inspection result with a test report, not a certification.
-
-- **DSHIO/T 10—2026** (DSH plugin standard): conformance checked — manifest `dsh.bundle.patch`, patch structure, `engines.dsh` lower bound, tool contract, declared permissions (`network` only), no red-line permission combinations.
-- **DSH sandbox**: install / list / mount / boot tested on deepseekbase.com (DSH 0.2.2-rc.1).
-- This is a conformance statement, not a certification: DSHIO/T 32 certification is not enabled yet.
 
 ## Tools
 

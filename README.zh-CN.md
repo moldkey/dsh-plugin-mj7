@@ -1,7 +1,6 @@
 # dsh-plugin-mj7
 
-[![DSHIO.ORG](https://img.shields.io/badge/DSHIO.ORG-inspection%20passed-blue)](https://dshio.org/standards/10/)
-[![DSH test report](https://img.shields.io/badge/DSH-test%20report-brightgreen)](https://deepseekbase.com/ecosystem/plugin-tests/)
+[![DSHIO/T 10](https://deepseekbase.com/badge/std.svg)](https://dshio.org/10/) [![deepseekbase](https://deepseekbase.com/badge/liangjiehappy-dsh-plugin-mj7.svg)](https://deepseekbase.com/zh/plugins/liangjiehappy-dsh-plugin-mj7/)
 
 Repository: https://github.com/moldkey/dsh-plugin-mj7
 
@@ -12,8 +11,9 @@ English docs: [README.md](README.md).
 ## 标准与检验（DSHIO.ORG）
 
 - **标准发布方：DSHIO.ORG** — DSHIO/T 10—2026（DSH 插件标准）。
-- **检验通过**：已通过 DSHIO/T 10 检验，检验报告发布在 deepseekbase.com（install / list / mount / boot，DSH 0.2.2-rc.1）。
-- **检验范围**：`dsh.bundle.patch`、patch 结构、`engines.dsh` 只写下限、工具契约、权限声明（仅 `network`）、无红线权限组合。
+- **检验结果：passed（通过，绿色）**：在 deepseekbase 按 DSHIO/T 21—2026 标准条件完成 install / list / mount / boot。
+- **检验报告**：https://deepseekbase.com/zh/plugins/liangjiehappy-dsh-plugin-mj7/
+- **人工判断项**：DSHIO/T 10 的 5.5.1（描述质量）与 5.5.2（权限一致性）属人工判断，本插件由作者确认。
 - **不是认证**：DSHIO/T 32 认证尚未启用；这是带检验报告的检验结果，不是认证。
 
 ## 工具
