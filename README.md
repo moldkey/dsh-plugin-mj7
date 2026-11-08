@@ -1,10 +1,20 @@
 # dsh-plugin-mj7
 
+[![DSHIO/T 10](https://img.shields.io/badge/DSHIO%2FT%2010-conformance-blue)](https://dshio.org/standards/10/)
+[![DSH sandbox](https://img.shields.io/badge/DSH-sandbox%20passed-brightgreen)](https://deepseekbase.com/ecosystem/plugin-tests/)
+
 Repository: https://github.com/moldkey/dsh-plugin-mj7
 
 Read-only mj7.cn data tools for DeepSeek Harness: standards/product search, HS lookup, Incoterms, trade documents, and CNY FX rates.
 
 中文说明见 [README.zh-CN.md](README.zh-CN.md).
+
+
+## Standards & testing
+
+- **DSHIO/T 10—2026** (DSH plugin standard): conformance checked — manifest `dsh.bundle.patch`, patch structure, `engines.dsh` lower bound, tool contract, declared permissions (`network` only), no red-line permission combinations.
+- **DSH sandbox**: install / list / mount / boot tested on deepseekbase.com (DSH 0.2.2-rc.1).
+- This is a conformance statement, not a certification: DSHIO/T 32 certification is not enabled yet.
 
 ## Tools
 
