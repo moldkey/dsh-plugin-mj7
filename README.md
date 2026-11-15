@@ -1,3 +1,4 @@
+[![DSHIO/T 10](https://dshio.org/badge/std.svg)](https://dshio.org/10/) [![deepseekbase](https://deepseekbase.com/badge/dsh-plugin-mj7.svg)](https://deepseekbase.com/plugins/dsh-plugin-mj7/)
 # dsh-plugin-mj7
 
 [![DSHIO/T 10](https://deepseekbase.com/badge/std.svg)](https://dshio.org/10/) [![deepseekbase](https://deepseekbase.com/badge/liangjiehappy-dsh-plugin-mj7.svg)](https://deepseekbase.com/zh/plugins/liangjiehappy-dsh-plugin-mj7/)
